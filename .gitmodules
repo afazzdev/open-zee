@@ -1,0 +1,3 @@
+[submodule "packages/notez-reactjs"]
+	path = packages/notez-reactjs
+	url = https://github.com/afazzdev/notez-reactjs.git
