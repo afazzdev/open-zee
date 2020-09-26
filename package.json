@@ -8,6 +8,6 @@
     "lerna": "^3.22.1"
   },
   "scripts": {
-    "dev": "lerna run dev"
+    "notez:dev": "lerna run dev --scope=notez-express --scope=notez-reactjs --stream --parallel --concurrency=1"
   }
 }
