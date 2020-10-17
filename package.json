@@ -5,7 +5,9 @@
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "dotenv-cli": "^4.0.0",
+    "lerna": "^3.22.1",
+    "nodemon": "^2.0.5"
   },
   "scripts": {
     "notez:dev": "lerna run dev --scope=notez-express --scope=notez-reactjs --stream --parallel --concurrency=2"
